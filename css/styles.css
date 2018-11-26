@@ -1,0 +1,61 @@
+body{
+  width: 100%;
+  margin: 0 auto !important; 
+}
+
+/* make sidebar nav vertical */
+.container-cs{
+  width:100% !important;
+  padding:0px !important;
+}
+
+.navbar{
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+/*Menu vertical*/
+.menu-vertical{
+ /*background:pink !important;*/
+  padding:0px !important;
+  margin:0px !important;
+}
+
+.row{
+ /* background:orange !important;*/
+  margin-top:0px !important;
+}
+
+.content{
+  /*background:green !important;*/
+}
+
+.sidebar-nav{
+  margin:0 auto !important;
+  width:90% !important;
+  float:left !important;
+}
+
+.navbar-default{
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
