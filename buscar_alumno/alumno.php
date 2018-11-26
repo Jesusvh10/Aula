@@ -7,7 +7,7 @@ require_once('../class/db.php');
  ?>
 
  
-<!DOCTYPE HTML> 
+<!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
